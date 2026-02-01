@@ -1,0 +1,225 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+footer{
+    margin: 0;
+    padding: 0;
+    height: 99px;
+    margin-top:-31px;
+}
+.nav-item {
+    margin-right: -46px;  
+    margin-bottom: -10px; 
+}
+.navbar .nav-link {
+    color: black;
+    margin-left: 41px;
+    padding: 15px 20px; 
+    text-decoration: none;
+}
+.nav-link img {
+    margin-top: -7px;
+}
+.dropdown-container {
+    padding: 10px;
+    background-color: rgb(242, 242, 242);
+    border: 1px solid #ccc;
+}
+.dropdown-grid {
+    background-color: rgb(242, 242, 242);
+    display: grid;
+    grid-template-columns: repeat(6, 1fr); 
+    gap: 20px; 
+
+}
+.dropdown-column ul {
+    list-style-type: none;
+    font-size: 15px;
+    font-weight: normal;
+    padding-left: 25px;
+    padding-top: 14px;
+}
+.dropdown-column li {
+    margin-bottom: 10px;
+}
+.dropdown-column a {
+    text-decoration: none;
+    color: rgb(53, 52, 52);
+    font-size: 12px;
+}
+.carousel-item.active {
+    background-color: rgb(112, 212, 212);
+    height: 600px;
+    width: 100%;
+    margin-bottom:100px;
+}
+.carousel-item.active h5{
+    text-align:left;
+}
+
+.carousel-item {
+    background-color: rgb(166, 170, 229);
+    height: 600px;
+    width: 100%; 
+}
+.carousel-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.carousel-caption {
+    position: absolute;
+    top: 20px; 
+    left: 20px; 
+    text-align: left; 
+    max-width: 50%; 
+}
+.carousel-caption .h1{
+    
+    line-height: 1.4;
+    color:black;
+    text-align: left;
+    margin-top: 177px;
+    margin-left:-95px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+} 
+.carousel-caption .p1{
+    line-height: 1.4;
+    color:black;
+    text-align: left;
+    margin-top: 9px;
+    margin-left:-99px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:15px;
+    font-weight: normal;
+}
+.carousel-caption .btn{
+    background-color: rgb(46, 61, 199);
+    color:white;
+    height:42px;
+    width:147px;
+    margin-top:15px;
+    margin-left: -716px;
+   
+}
+.card-container{
+    display:flex;
+    justify-content: center;
+    flex-wrap:wrap;
+    /* margin-top:100px; */
+}
+.card{
+    width:275px;
+    background-color: #f0f0f0;
+    overflow:hidden;
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
+    margin:11px;
+
+}
+.card img{
+    width:100%;
+    height: auto;
+}
+.card-body h4{
+    color:black;
+    /* font-weight: bold; */
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+.card-body p{
+    color:black;
+    font-size:18px;
+    line-height: 1.3;
+    font-weight: normal;
+}
+.card-body a{
+    margin-top:22px;
+    background-color: rgb(26, 80, 197);
+}
+
+  .img-container {
+    position: relative;
+    font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: auto;
+}
+
+.img-container img {
+    width: 1163px;
+    height: auto;
+    display: block;
+    margin-top: 96px; 
+    margin-left: 91px; 
+}
+
+ .img-container .text-block {
+    position: absolute;
+    bottom: -56px;
+    left: 315px;
+    color: white;
+    padding: 263px 333px; 
+    font-size: 18px;
+    
+}
+
+.img-container .text-block h4 {
+    font-size: 24px; 
+}
+
+.img-container .text-block pre {
+
+  
+    font-size: 16px;
+}
+.img-container .text-block a{
+    background-color: rgb(71, 71, 240);
+    color:white;  
+    text-decoration: none;
+    font-size:17px;
+    padding:14px;
+} 
+
+footer{
+    background-color: rgb(242, 242, 242);
+    height:379px;
+    padding-left: 64px;
+    padding-top: 32px;;
+}
+
+.navbar-container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 20px; 
+}
+
+.navbar-container ul {
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-container li {
+    color:rgb(77, 75, 75);
+    list-style: none;
+    font-weight: normal;
+    font-size: 12px;
+    margin-top: 11px;
+    margin-left: 0;
+}
+
+.first-row li,
+.Second-row li,
+.Third-row li,
+.Forth-row li,
+.fifth-row li,
+.Sixth-row li {
+    margin-left: 0;
+}
+.list{
+    color:rgb(77, 75, 75); 
+    font-weight:normal;
+    font-size: 11px;
+    margin-top:53px;
+}
+
+
